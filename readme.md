@@ -44,7 +44,7 @@ npm install
 
 ### 3. Add Your Resume
 
-Place your resume file in the project directory and name it `Susmitha_Gopireddy_Full_Stack_Developer.docx`
+Place your resume file in the project directory and name it `resume.docx`
 
 ```
 naukri-updater/
@@ -52,7 +52,7 @@ naukri-updater/
 ├── update-resume.js
 ├── package.json
 ├── .env
-└── Susmitha_Gopireddy_Full_Stack_Developer.docx  ← Your resume here
+└── resume.docx  ← Your resume here
 ```
 
 ### 4. Configure Environment Variables
@@ -303,7 +303,7 @@ naukri-updater/
 ├── package.json          # Dependencies
 ├── .env                  # Configuration (not in git)
 ├── .env.example          # Example configuration
-├── Susmitha_Gopireddy_Full_Stack_Developer.docx           # Your resume
+├── resume.docx           # Your resume
 ├── naukri_update.log     # Activity logs
 └── node_modules/         # Dependencies (auto-created)
 ```
