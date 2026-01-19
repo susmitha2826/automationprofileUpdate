@@ -1,0 +1,26 @@
+{
+  "name": "naukri-resume-updater",
+  "version": "1.0.0",
+  "description": "Automated Naukri resume updater with scheduling",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "update": "node update-resume.js",
+    "test": "node update-resume.js"
+  },
+  "keywords": [
+    "naukri",
+    "automation",
+    "resume",
+    "job"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "form-data": "^4.0.5",
+    "node-cron": "^3.0.3"
+  }
+}
